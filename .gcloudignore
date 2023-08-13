@@ -1,0 +1,11 @@
+# Ignore everything
+/[!.]*
+/.?*
+
+# Except the files to be deployed
+!/requirements.txt
+!/main.py
+!/app.yaml
+!/base/**
+
+#!include:.gitignore
